@@ -34,8 +34,9 @@ lst.append(888)#尾部增加
 print(lst)
 lst.insert(2,888)#指定位置加入
 print(lst)
-lst.pop(3)#指定index的删除
+l=lst.pop(3)#指定index的取出删除
 print(lst)
+print(l)
 lst.remove(888)#第一次 出现888时删除该元素
 print(lst)
 lst.reverse()#反转列表
