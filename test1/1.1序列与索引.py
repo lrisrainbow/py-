@@ -5,9 +5,11 @@ for i in range(0,len(s)):
     print(s[i],end='\t')
 print()
 print('--------------------')
+
 #逆向索引
 for n in range(-10,0):
     print(s[n],end='\t')
+
 #切片操作
 print()
 print("切片操作-------------")
@@ -27,10 +29,12 @@ print(s*10)
 s="helloworld"
 print("e"in s)
 print("v" not in s)
+
 #序列对象的方法
 print("-"*10)
 print(s.count("e"))
 print(s.index("e"))
+
 #内置函数的使用
 print("+"*10)
 print(max(s))

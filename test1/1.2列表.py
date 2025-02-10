@@ -1,13 +1,16 @@
 #列表属于序列，所有对序列的操作，运算均可用
-#列表可存储多种数据类型，用,分割
+#列表可存储多种数据类型，用','分割
 #直接创建
 import random
-
 lst=[1,2,3,4,5,"hello1"]
 print(lst)
-#内置函数创建
+#内置函数创建，实际上是对传入的对象进行操作，变为列表，无论是什么对象
 list2=list(range(1,10,2))
-lst3=list("heel")
+lst3=list("heel")#把这个字符串对象变成列表
+lst4=list([10,20,30,40,50])
+lst5=list(("aaa","bbb","ccc","ddd"))#把元组变成了列表
+print(lst5)
+print(lst4)
 print(list2)
 print(lst3)
 print('-'*10)
