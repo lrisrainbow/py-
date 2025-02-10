@@ -28,3 +28,15 @@ for index,item in enumerate(list2):
 print("--"*10,"修改索引")
 for index,item in enumerate(list2,start=1):
   print(index,item)
+
+print("列表操作")
+lst.append(888)#尾部增加
+print(lst)
+lst.insert(2,888)#指定位置加入
+print(lst)
+lst.pop(3)#指定index的删除
+print(lst)
+lst.remove(888)#第一次 出现888时删除该元素
+print(lst)
+lst.reverse()#反转列表
+print(lst)
