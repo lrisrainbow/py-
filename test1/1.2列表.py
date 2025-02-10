@@ -47,7 +47,7 @@ print(lst)
 lst.reverse()#反转列表
 print(lst)
 
-#列表生成式及二维列表
+##列表生成式及二维列表
 print('#'*20)
 lst=[item for item in range(1,10)]
 print(lst)

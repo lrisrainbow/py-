@@ -38,3 +38,13 @@ for i in range(1,len(t)):
 print()
 for it,i in enumerate(t):
     print(it,i)
+
+#元组生成式
+t=(i for i in range(1,4))
+print(t)#生成的是一个生成器对象，看不到具体内容
+
+print(t.__next__())#会取出元素,且只有t这个'生成器对象'能调用
+
+t=tuple(t)#转换为元组
+print(t)#元组不存在next方法，但能用正常for循环
+
